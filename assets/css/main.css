@@ -646,7 +646,7 @@ hr {
 }
 
 .navbar li.active a.nav-link {
-  color: #preset;
+  color: red;
 }
 
 .dropdown-toggle::after {
@@ -747,7 +747,7 @@ hr {
 3. Hero Area
 ========================================================================== */
 #hero-area {
-  background-image: url(../img/hero-area.svg);
+  background-image: url(../img/hero/hero-area.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -870,6 +870,37 @@ hr {
 
 .team-item:hover .team-overlay {
   opacity: 1;
+}
+
+
+/* ==========================================================================
+ Video promo Style
+ ========================================================================== */
+ .video-promo {
+  /* background: url(../img/item-youtube-1920x1080.png); */
+  position: relative;
+}
+
+.video-promo .video-promo-content {
+  color:whitesmoke;
+}
+
+.video-promo .video-promo-content .video-popup {
+  color:goldenrod;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 50px;
+}
+
+.video-promo .video-promo-content h2 {
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.video-promo .video-promo-content p {
+  color: black;
 }
 
 /* ==========================================================================
@@ -1280,12 +1311,12 @@ textarea {
 .footer-area {
   position: relative;
   padding: 150px 0px 0px;
-  background: #fff;
+  background: black;
 }
 
 .footer-area .footer-titel {
   font-size: 18px;
-  color: #333333;
+  color:goldenrod;
   font-weight: 500;
   padding-bottom: 20px;
   letter-spacing: 0.5px;
@@ -1297,7 +1328,7 @@ textarea {
 }
 
 .footer-area .textwidget p {
-  color: #333;
+  color: whitesmoke;
 }
 
 .footer-area .footer-link li {
@@ -1305,7 +1336,7 @@ textarea {
 }
 
 .footer-area .footer-link li a {
-  color: #333;
+  color:whitesmoke;
   font-size: 14px;
   font-weight: 400;
   position: relative;
@@ -1320,7 +1351,7 @@ textarea {
 }
 
 .footer-area .address li a {
-  color: #666666;
+  color:whitesmoke;
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
